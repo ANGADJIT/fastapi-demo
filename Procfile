@@ -1,1 +1,1 @@
-web: cd src && main:app --host=0.0.0.0 --port=${PORT:-5000}
+web: cd src && uvicorn main:api --host=0.0.0.0 --port=${PORT:-5000}
