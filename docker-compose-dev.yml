@@ -3,6 +3,7 @@ version: '3'
 services:
   db:
     image: mysql
+    restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=angad1234
       - MYSQL_DATABASE=fastapi
